@@ -1,0 +1,11 @@
+version: '3'
+services:
+
+    cord-holmes-server:
+        build: .
+        ports:
+            - "5000:5000"
+        volumes:
+            - ./:/app
+        command: bash -c "python main.py & bash monitor_memory.sh"
+

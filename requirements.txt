@@ -1,0 +1,5 @@
+numpy
+flask
+kaggle
+holmes-extractor
+
