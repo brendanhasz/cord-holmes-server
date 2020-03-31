@@ -11,6 +11,3 @@ RUN mkdir /app
 WORKDIR /app
 
 RUN python -m spacy download en_core_web_lg
-
-RUN kaggle datasets download -d allen-institute-for-ai/CORD-19-research-challenge
-
