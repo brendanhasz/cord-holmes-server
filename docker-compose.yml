@@ -8,6 +8,6 @@ services:
         volumes:
             - ./app:/app
         env_file:
-            - .config/secrets
+            - ./config/secrets
         command: bash -c "python /app/app.py & bash monitor_memory.sh"
 
