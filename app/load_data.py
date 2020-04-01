@@ -9,10 +9,10 @@ def load_data():
 
     # Get list of json filenames
     dirs = [
-        'CORD-19-research-challenge/biorxiv_medrxiv/biorxiv_medrxiv/',
-        'CORD-19-research-challenge/comm_use_subset/comm_use_subset/',
-        'CORD-19-research-challenge/custom_license/custom_license/',
-        'CORD-19-research-challenge/noncomm_use_subset/noncomm_use_subset/',
+        'biorxiv_medrxiv/biorxiv_medrxiv/',
+        'comm_use_subset/comm_use_subset/',
+        'custom_license/custom_license/',
+        'noncomm_use_subset/noncomm_use_subset/',
     ]
     fnames = [d+f for d in dirs for f in os.listdir(d)]
 

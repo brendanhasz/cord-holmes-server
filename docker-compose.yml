@@ -9,5 +9,5 @@ services:
             - ./app:/app
         env_file:
             - ./config/secrets
-        command: bash -c "python /app/app.py & bash monitor_memory.sh"
+        command: bash -c "python /app/app.py & bash /app/monitor_memory.sh"
 
